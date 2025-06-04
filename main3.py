@@ -50,7 +50,6 @@ def stop():
         d = re.search("py.exe",val)
         if b:
             os.system('TASKKILL /F /IM powershell.exe /T')
-        if c:
             os.system('taskkill /IM chrome.exe')
             os.system('taskkill /IM py.exe')
 
