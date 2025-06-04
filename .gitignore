@@ -1,0 +1,2 @@
+# Ignorar todos los __pycache__ en cualquier nivel
+__pycache__/
